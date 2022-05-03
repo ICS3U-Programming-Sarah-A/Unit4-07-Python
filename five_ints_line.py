@@ -12,7 +12,7 @@ def main():
 
     # displays the numbers from 1000-2000 & then displays to user.
     for counter in range(1000, 2001):
-        if counter % 5 == 0 and counter != 100:
+        if counter % 5 == 0 and counter != 1000:
             print("")
         print(counter, " ", end="")
 
